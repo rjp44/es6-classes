@@ -11,6 +11,10 @@ class threeDShape extends Thing {
 
 }
 
+
+
+
+
 class Circle extends twoDShape {
     constructor(diameter, colour) {
         super();
@@ -33,7 +37,7 @@ class Globe extends threeDShape {
     constructor(diameter, colour) {
         super();
         this.diameter = this.height = this.width = this.depth = diameter;
-        this.volume = Math.PI * (diameter / 2) ** 3
+        this.volume = 4/3 * Math.PI * (diameter / 2) ** 3
         this.colour = colour;
     }
 }

@@ -1,4 +1,4 @@
-const { twoDShape, threeDShape, Circle, Square, Globe, Cube } = require('./shapes2');
+const { twoDShape, threeDShape, Circle, Square, Globe, Cube } = require('./shapes');
 
 let myCube = new Cube(3, 'red');
 let myCircle = new Circle(3, 'orange');
